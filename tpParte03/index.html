@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 – Formulario Alta Empleado</title>
+    <script src="./javascrip/funciones.js">    </script>
+
+    <style>
+        
+            .tabla{
+                margin-right: 950px;
+            }
+            .turno{
+                padding-left: 40px;
+            }
+    </style>
+  
+</head>
+
+<body>
+    <h2>Alta de Empleados</h2>
+
+    <form method="POST" class="tabla" enctype="multipart/form-data" action="http://localhost/tpParte03/administracion.php">
+        <table  align="center" border="0">
+            
+            <tr>
+                <td colspan="2"><h4>Datos Personales</h4></td>
+            </tr>
+            
+            <tr>
+                <td colspan="2"><hr></td>
+            </tr>
+            <tr class="padding">
+                <td  > <label for="txtDni">DNI:</label></td>
+                <td> <input type="number" name="txtDni" id="txtDni" size="8" max="55000000" min="1000000"></td>
+            </tr>
+            <tr>
+                <td  ><label for="txtApellido">Apellido:</label>  </td>
+                <td> <input type="text" name="txtApellido" id="txtApellido" ></td>
+            </tr>
+            <tr>
+                <td  ><label for="txtNombre">Nombre:</label> </td>
+                <td> <input type="text" name="txtNombre" id="txtNombre"></td>
+            </tr>
+             <tr>
+                 <td  ><label for="sexo">Sexo:</label> </td>
+                 <td><select name="sexo" id="sexo">
+                    <option disabled selected value="--">Seleccione</option>
+                    <option value="Masculino(M)" >Masculino(M)</option>
+                    <option value="Femenino(F)" >Femenino(F)</option>
+                 </select></td>
+             </tr>
+            
+             <tr>
+                <td colspan="2"><h4>Datos Laborales</h4></td>
+            </tr>
+            
+            <tr>
+                <td  ><label for="txtLegajo">Legajo:</label> </td>
+                <td> <input  name="txtLegajo" id="txtLegajo" size="5" type="number" min="100" max="550" ></td>
+            </tr>
+            <tr>
+                <td><label for="txtSueldo">Sueldo:</label></td>
+                <td> <input  name="txtSueldo" id="txtSueldo" type="number" min="8000" step="500" ></td>
+            </tr>
+            <tr>
+                <td  ><label for="rdoTueno">Turno:</label></td>
+            </tr>
+            <tr>
+                <td class="turno" colspan="2"  >  <input type="radio" name="rdoTurno" id="rdoTurno" value="mañana" checked />Mañana</td>
+            </tr>
+            <tr>
+                <td class="turno" colspan="2"  >  <input type="radio" name="rdoTurno" id="rdoTurno" value="tarde"  />Tarde</td>
+            </tr>
+            <tr>
+                <td class="turno"  colspan="2"  >  <input type="radio" name="rdoTurno" id="rdoTurno" value="noche"  />Noche</td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><input type="reset"></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="right"><input type="submit" name="guardar" value="enviar" onclick="AdministrarValidaciones()"/> </td>
+            </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>

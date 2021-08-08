@@ -1,0 +1,1 @@
+console.log("HOLA MUNDO!!!\nPuedo utilizar comillas'simples'\nY comillas \"dobles\"");

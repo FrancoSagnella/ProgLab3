@@ -1,0 +1,7 @@
+Hernesto - Rodriguez - 1000003 - M - 103 - 8000 - Noche - ./fotos/1000003-Rodriguez.jpg
+Ivan - Sanchez - 1000001 - M - 101 - 9000 - Tarde - ./fotos/1000001-Sanchez.jpg
+Esteban - Aguirre - 1000022 - M - 116 - 8000 - Maniana - ./fotos/1000022-Aguirre.jpg
+Hernesto - Alvarez - 1000002 - M - 102 - 8500 - Noche - ./fotos/1000002-Alvarez.jpg
+Fabiana - Avila - 1000025 - F - 121 - 8500 - Maniana - ./fotos/1000025-Avila.jpg
+Franco - Sagnella - 1000000 - M - 100 - 11000 - Noche - ./fotos/1000000-Sagnella.jpg
+Hugo - Sagnella - 1000019 - M - 116 - 9000 - Maniana - ./fotos/1000019-Sagnella.jpg

@@ -1,0 +1,1 @@
+{"tipo":"agregarFoto","velocidad":300,"planetaOrigen":"marte","pathFoto":"agregarFoto.borrado.221934.jpg"}

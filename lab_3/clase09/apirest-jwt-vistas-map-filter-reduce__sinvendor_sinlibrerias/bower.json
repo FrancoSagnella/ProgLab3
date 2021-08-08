@@ -1,0 +1,22 @@
+{
+  "name": "api-bootstrap",
+  "authors": [
+    "Maxi"
+  ],
+  "description": "aplicación front-end back-end",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "librerias",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "jquery": "*"
+  }
+}

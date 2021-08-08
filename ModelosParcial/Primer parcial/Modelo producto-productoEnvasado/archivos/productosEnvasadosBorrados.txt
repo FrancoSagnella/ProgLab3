@@ -1,0 +1,1 @@
+{"id":18,"codigoBarra":4444,"precio":5555,"pathFoto":"18.Pritty.borrado.225607.jpg","nombre":"Pritty","origen":"Cordoba"}

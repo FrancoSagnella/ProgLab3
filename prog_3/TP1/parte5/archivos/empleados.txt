@@ -1,0 +1,2 @@
+Ivan - Sanchez - 1000001 - M - 100 - 8000 - Maniana - ./fotos/1000001-Sanchez.jpg
+Rodriguez - Esteban - 1000000 - M - 100 - 9000 - Tarde - ./fotos/1000000-Esteban.jpg

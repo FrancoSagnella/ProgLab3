@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap - TypeScript - ApiRest</title>
+
+    <!--incluyo la fotito-->
+    <link href="{{base_path() }}/images/utnLogo.png" rel="icon" type="image/png" />
+
+    <!-- bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- bootstrap 4 BOWER -->
+    <!-- <link rel="stylesheet" href="{{base_path() }}/libraries/bootstrap/dist/css/bootstrap.min.css">
+    <script src="{{base_path() }}/libraries/jquery/dist/jquery.min.js"></script>
+    <script src="{{base_path() }}libraries/bootstrap/dist/js/bootstrap.min.js"></script> -->
+    
+
+    <!--Incluyo los estilos propios y los javascripts-->
+    <link rel="stylesheet" href="{{base_path() }}/styles/estilos.css">
+    <!-- <link rel="stylesheet" href="{{ base_path() }}/libraries/bootstrap-icons/font/bootstrap-icons.css"> -->
+    <script type="text/javascript" src="{{ base_path() }}/scripts/funciones.js"></script>
+    <script type="text/javascript" src="{{ base_path() }}/scripts/funciones_jwt.js"></script>
+
+    <title>Bootstrap - TypeScript - ApiRest</title>
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
